@@ -1,0 +1,28 @@
+#header{width:100%;height:auto;overflow:auto;margin:0;padding:0;position:fixed;top: 0px;left: 0px;z-index: 101;}
+/****/
+#topnev{width:100%;height:auto;overflow:auto;margin:0;padding:0;background: #fff}
+#thelogo{background:url(../../source/images/logo.png) no-repeat center left;background-size:auto 80%;cursor: pointer; width:120px;height:50px;float:left;padding:0 0 0 50px;margin:0 0 0 15px;line-height:50px;font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
+#menu{width:160px;height:50px;float:right;line-height:50px;font-size:28px;color:#2B2B2B;text-align: right;}
+#menu i{margin:0 5px; color: #234555;cursor:pointer;}
+#floatmanu{position:fixed;top:55px;right:10px;z-index:102;background:#fff;box-shadow: 1px 1px 3px 1px #999;}
+.on{width:320px;height:auto;overflow:auto;margin:0;padding:0;visibility:visible;}
+.off{width:0;height:0;overflow:auto;margin:0;padding:0;visibility:hidden;}
+#floatmanu nav{width:80px;height:auto;float:left;margin:15px 9px;padding:0;text-align:center;line-height:30px;font-size:12px;cursor:pointer;color:#FF7E00;}
+#floatmanu nav i{font-size:40px;margin:15px 0 0 0;}
+#floatmanu nav:hover{color:#505050;}
+#banner{}
+/****/
+#pagebody{width:100%;height:auto;overflow:auto;margin:0 50px 0 0;padding:0;}
+/****/
+#footer{width:100%;height:auto;overflow:auto;margin:0;padding:0;background: #fff;position:fixed;bottom: 0px;left: 0px;z-index: 100;}
+#announcement{width:100%;height:50px;max-width: 1200px;margin:0 auto;padding:0;line-height: 50px;text-align: center;}
+/*------------------------------------*/
+.container_h{width:100%;height: auto;overflow: auto;max-width: 1200px;margin: 50px auto;padding: 0; display: flex;justify-content: center;}
+.container_b{width:100%;height: auto;overflow: auto;max-width: 800px;margin: 50px auto;padding: 0; display: flex;justify-content: left;}
+.entricon{width:150px;height:auto;overflow:auto;min-width:150px;margin:25px;padding:0;background: #fff;color:#FF7E00;cursor: pointer;}
+.blocks{width: 320px;height: auto;overflow: auto;min-width:300px;margin:25px;padding: 0; box-shadow: 1px 1px 6px 1px #aaa;box-sizing: border-box;}
+.blockicon{width: 100%;height:150px;font-size:80px;text-align: center;}
+.blockicon i{margin:25px auto 0 auto;}
+.blockimg{width: 100%;height: 200px; background: #333;}
+.blocktit{width: 100%;height: auto; line-height: 50px; text-align: center;}
+.blockcon{width: 100%;height: 100px; text-align: center}

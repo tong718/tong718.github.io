@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>BOW.NZ</title>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<link rel="icon" type="image/png" href="source/images/ico.png" />
+	<link rel="stylesheet" type="text/css" href="source/css/style.css">
+	<link rel="stylesheet" media="screen and (min-width:1200px)" href="source/css/pc_layout.css">
+	<link rel="stylesheet" media="screen and (max-width:1200px)" href="source/css/pd_layout.css">
+	<link rel="stylesheet" media="screen and (max-width:850px)" href="source/css/mb_layout.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="source/js/jquery.min.js"></script>
+	<script src="source/js/screen.js"></script>
+	<script src="io/func/checkers.js"></script>
+	<script>
+		window.onscroll = function() {};
+		window.onresize = function() {};
+		window.onload = function(){
+			var url=location.search;
+			var locbase="source/goto/";
+			if (url.indexOf("?") != -1){
+				var str=url.substr(1);
+				strs=str.split("&");
+				var num = strs.length;
+				switch(num){
+					case 1:
+						var gotopage=locbase+strs[0];
+						break;
+					case 2:
+						var gotopage=locbase+strs[0]+"/?"+strs[1];
+						break;
+					case 3:
+						var gotopage=locbase+strs[0]+"/?"+strs[1]+"&"+strs[2];
+						break;
+					default:
+						var gotopage=locbase+str;
+						break;
+					}
+				openpage(gotopage);				
+			}else{
+				var gotopage=locbase+"home";
+				openpage(gotopage);
+			}
+		}
+	</script>
+	<style>
+	
+	</style>
+    </head>
+    <body>
+		<script>
+		$('body').on('click', function(e){var menuselect = document.getElementById('submenu');var elementID = document.getElementById('floatmanu');if ( (event.target != elementID) && (event.target.parentNode != elementID) && (event.target != menuselect) && (event.target.parentNode != menuselect) && $('#floatmanu').hasClass('on')){$('#floatmanu').toggleClass('on off');}});
+		$('#submenu').on('click', function(e){if ($('#floatmanu').hasClass('off')){$('#floatmanu').toggleClass('off on');}else{$('#floatmanu').toggleClass('on off');}});
+		</script>
+		<div id="header">
+			<div id="topnev">
+				<div id="thelogo" onclick="location.href='/'"></div>
+				<div id="menu">
+					<i id="submenu" class="fa fa-bars" onclick="switchmenu('floatmanu','on','off');"></i>
+					<i class="fa fa-user-circle"  onclick="location.href='?account';"></i>
+					<i class="fa fa-power-off" onclick="logout()"></i>
+					<div id="floatmanu" class="off">
+						<nav onclick="location.href='?account'"><i class="fa fa-user-circle"></i><br/>ACCOUNT</nav>
+						<nav onclick="location.href='CP/'"><i class="fa fa-globe"></i><br/>MYWEB</nav>
+						<nav onclick="location.href='?calendar'"><i class="fa fa-calendar"></i><br/>CALENDAR</nav>
+						<nav onclick="location.href='?linkme'"><i class="fa fa-link"></i><br/>LINKME</nav>
+						<nav onclick="location.href='?watchlist'"><i class="fa fa-eye"></i><br/>WATCHLIST</nav>
+						<nav onclick="location.href='?bowapp'"><i class="fa fa-cubes"></i><br/>BOWAPPS</nav>			
+					</div>
+				</div>
+			</div>
+			<div id="banner"></div>
+		</div>
+		<div id="pagebody"></div>
+		<div id="footer"><div id="announcement">Copyrights©2021. Powered by Bow Length Limited</div></div>
+    </body>
+</html>

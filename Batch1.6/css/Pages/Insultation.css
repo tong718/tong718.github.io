@@ -1,0 +1,18 @@
+#insultation{width: 100%;height: auto;font-size: 25px;font-weight: 500;box-sizing: border-box;}
+#insul_sec1{background: url(../../imgs/banner.jpg) fixed center;width: 100%;height: 200px;padding-left: 8%;padding-top: 2%;box-sizing: border-box;}
+#insultation p{text-align: justify;}
+#insul_sec1 p:first-child{font-size: 45px;font-weight: 700;margin-bottom: 2%;text-align: left;}
+#insul_sec2{width: 80%;margin-left: 10%;height: 150px;margin-top: 3%;}
+#insul_sec2 p:first-child{margin-bottom: 3%;}
+.insul_sec3{width: 80%;margin-left: 10%;height: 400px;margin-top: 2%;}
+.insul_sec3_right{width: 80%;margin-left: 10%;height: 400px;margin-top: 5%;}
+.insul_sec3 img{display: inline-block;width: 50%;height: 100%;}
+.insul_sec3_right .sec3_sub_right{display:inline-block;width: 50%;height: 100%;margin-left: 0%;}
+.insul_sec3_right img{display: inline-block;vertical-align:top;width: 40%;margin-left: 5%;height: 100%;}
+.insul_sec3 .sec3_sub{display: inline-block;width: 40%;margin-left: 5%;height: 100%;}
+.insul_sec3_right p:first-child{font-size: 35px;font-weight: 700;margin-bottom: 3%;text-align: left;}
+.insul_sec3 p:first-child{font-size: 35px;font-weight: 700;margin-bottom: 3%;text-align: left;}
+.insul_sec3_right button{width: 40%;height: 50px;background-color: darkslateblue;border-radius: 10px;margin-top: 10%;margin-left: 20%;color: white;}
+.insul_sec3 button{width: 40%;height: 50px;background-color: darkslateblue;border-radius: 10px;margin-top: 10%;margin-left: 20%;color: white;}
+.insul_sec3_right button:hover{background-color: orange;}
+.insul_sec3 button:hover{background-color: orange;}
