@@ -1,0 +1,106 @@
+#aboutus_up{width: 80%;margin: 7% 10%;height: auto;}
+#aboutus_up p:first-child{font-weight: 900;font-size: 60px;text-align: center;margin: 3% auto;}
+#aboutus_up .aboutus_txt{width:60%;margin: 2% 20%;font-size: 18px;line-height: 20px;text-align:justify;}
+#aboutus_down{width: 100%;background-color: lightskyblue;height: auto;text-align: center;}
+#aboutus_down #aboutus_down_title{color: white;font-weight: 700;font-size: 50px;margin: 1% auto;}
+#aboutus_down table{width: 70%;height:auto;margin-top: 1%;}
+#aboutus_down tr td{border:30px solid lightskyblue;padding-top: 2%;width: 15%;}
+#aboutus_down tr td p:nth-child(2){font-weight: 600;}
+#aboutus_down tr td .png{width:40px;height:40px;margin:1% auto 5% auto;background-color: lightskyblue;font-weight: 800;color: white;font-size:25px;border-radius: 8px;line-height: 40px;}
+#aboutus_down tr td img{width: 50%;height: auto;margin:auto;}
+/*开始program*/
+#program{width: 100%;height: auto;
+    background: url(../imgs/accounting-bg.jpg) fixed center;
+    padding-top: 7%;}
+#program #program_title{font-weight: 900;font-size: 35px;text-align: center;margin: 1% 10%;color: white;}
+#program .block{width: 50%;background-color: white;height: auto;margin: 1% 25%;text-align: center;}
+#program .block:nth-child(6){margin: 1% 25% 0 25%;}
+#program .block div:first-child{font-size: 35px;color: black;margin: 2% 20%;}
+#program .block div:nth-child(2){font-size: 25px;color: black;margin: 2% 40%;}
+#program .block div:nth-child(3){font-size: 18px;color: black;margin: 2% 37%;font-weight: 600;}
+#program li{height: 35px;line-height: 35px;}
+#program .icon{width: 30px;height: 30px;float: left;margin: auto 1%;background-color: green;text-align: center;border-radius: 15px;}
+#program #more1{width:150px;height:35px;margin:0 37% 3% 37%;background-color: green;color: white;font-size: 20px;}
+#program #price1{width:150px;height:35px;margin:3% 37%;background-color: green;color: white;font-size: 20px;}
+#program .off1{display: none;}
+#program .on1{opacity: 1;}
+/*第二个*/
+#program #more2{width:150px;height:35px;margin:0 37% 3% 37%;background-color: green;color: white;font-size: 20px;}
+#program #price2{width:150px;height:35px;margin:3% 37%;background-color: green;color: white;font-size: 20px;}
+#program .off2{display: none;}
+#program .on2{opacity: 1;}
+/*第三个*/
+#program #more3{width:150px;height:35px;margin:0 37% 3% 37%;background-color: green;color: white;font-size: 20px;}
+#program #price3{width:150px;height:35px;margin:3% 37%;background-color: green;color: white;font-size: 20px;}
+#program .off3{display: none;}
+#program .on3{opacity: 1;}
+/*第四个*/
+#program #more4{width:150px;height:35px;margin:0 37% 3% 37%;background-color: green;color: white;font-size: 20px;}
+#program #price4{width:150px;height:35px;margin:3% 37%;background-color: green;color: white;font-size: 20px;}
+#program .off4{display: none;}
+#program .on4{opacity: 1;}
+/*第五个*/
+#program #more5{width:150px;height:35px;margin:0 37% 3% 37%;background-color: green;color: white;font-size: 20px;}
+#program #price5{width:150px;height:35px;margin:3% 37%;background-color: green;color: white;font-size: 20px;}
+#program .off5{display: none;}
+#program .on5{opacity: 1;}
+/*第六个*/
+#program #more6{width:150px;height:35px;margin:0 37% 3% 37%;background-color: green;color: white;font-size: 20px;}
+#program #price6{width:150px;height:35px;margin:3% 37%;background-color: green;color: white;font-size: 20px;}
+#program .off6{display: none;}
+#program .on6{opacity: 1;}
+/*test开始*/
+#test{width: 70%;margin: 2% 15% 0 15%;}
+#test p:first-child{width: 80%;margin: 10% 0% 2% 20%; font-weight: 500;font-size: 40px;}
+#test p:nth-child(2){width: 60;margin: 1% 0% 1% 30%;font-size: 20px;}
+#test  video{width: 50%;margin: 2% 25%;}
+/*contact开始*/
+#contact{width: 100%;height:598px;}
+#contact #contact_title{font-size: 30px;font-weight: 500;width: 50%;height:70px;margin: 10% 0 0 40%;}
+#contact #info{width: 100%;height: 528px;background-color:lightgray;padding: 2% 10% 0% 10%;box-sizing: border-box;}
+#contact #info #left{float:left;width: 40%;height: 90%;margin: 1% 5%;background-color:lightgray}
+#contact #info #left p:first-child{font-size: 35px;font-weight: 800;width: 80%;}
+#contact #info #left form input{width: 90%;height: 35px;border: 1px solid gray;margin-top: 5%;border-radius: 10px;}
+#contact #info #left form button:hover{background-color: white;color: greenyellow;font-weight: 900;}
+#contact #info #left form input:nth-child(8){height: 100px;}
+#contact #info #left button{width: 150px;height: 55px;font-size: 20px;background-color:grey;color: white;border-radius: 5px;margin: 5% auto; }
+#contact #info #right{float: right;background-color:lightgray;width: 40%;}
+#contact #info #right #contact_map{height: auto;width: 100%;margin: 5% 0;}
+#contact #info #right table tr td{font-size: 20px;height: 50px;text-align: left;}
+#contact #info #right table tr:first-child td{font-weight: 600;font-size: 20px;color: green;}
+/*apply开始*/
+#apply{width:100%;height: 2450px;}
+#apply img{width: 100%;}
+#apply  .apply_sec2{width: 100%;height:200px;background-color: deepskyblue;color: white;text-align: center;}
+#apply  .apply_sec2 p:first-child{font-size: 40px;font-weight: 900;padding-top: 1%;box-sizing: border-box;}
+#apply  .apply_sec2 p:nth-child(2){font-size: 20px;margin: 1% 0%;}
+#apply  .apply_sec2 button{width:150px;height: 50px;background-color: greenyellow;font-size: 20px;font-weight: 300;margin-left: 5%;color: white;border-radius: 30px;}
+#apply  .apply_sec2 button:hover{background-color: deepskyblue;}
+#apply #apply_sec3{width: 100%;}
+#apply #apply_sec3 p:first-child{width: 60%;font-weight: 700;font-size: 35px;margin: 1% 0% 1% 35%;}
+#apply #apply_sec3 p:nth-child(2){width: 90%;margin-left: 5%;text-align: center;font-size: 20px;}
+#apply #applyl_sec4{width: 100%;}
+#apply #applyl_sec4 p:first-child{width: 60%;font-weight: 700;font-size: 35px;margin: 3% 0% 1% 25%;}
+#apply #applyl_sec4 #apply_sec4_imgs{width: 80%;margin-left:15%;}
+#apply #applyl_sec4 #apply_sec4_imgs .apply_sec4_block{width: 20%;margin: 2% 1%;background-color: lightgray;height: 200px;display: inline-block;position: relative; transition: 1s; transform-style: preserve-3d;display: inline-block;}
+#apply #applyl_sec4 #apply_sec4_imgs .apply_sec4_block #special{width: 70%;margin-top: 5%;margin-left: 39%;}
+#apply #applyl_sec4 #apply_sec4_imgs .apply_sec4_block .imgs_front{position: absolute; top: 0;transform: rotateY(0deg);backface-visibility:hidden;}
+#apply #applyl_sec4 #apply_sec4_imgs .apply_sec4_block .imgs_back{position: absolute; top: 0; transform: rotateY(180deg); backface-visibility:hidden;}
+#apply #applyl_sec4 #apply_sec4_imgs .apply_sec4_block:hover{ transform: rotateY(180deg); }
+#apply #applyl_sec4 #apply_sec4_imgs .apply_sec4_block img{width: 100px;height: auto;margin-left: 40%;margin-top: 10%;}
+#apply #applyl_sec4 #apply_sec4_imgs .apply_sec4_block p{width:70%;margin-left: 46%;margin-top: 8%;}
+#apply #applyl_sec4 #apply_sec4_imgs .apply_sec4_block .imgs_back img{position: absolute;left: -165px;top:10px;}
+#apply #applyl_sec4 #apply_sec4_imgs .apply_sec4_block .imgs_back p{position: absolute;left: -155px;top:120px;}
+#apply #apply_sec5{width: 100%;height:auto;text-align: center;padding-top: 2%;}
+#apply #apply_sec5 form{border: 1px solid blue;height: 1030px;width: 30%;margin-left: 35%;font-size: 24px;text-align: left;padding-left: 2%;}
+#apply #apply_sec5 form p:first-child{color: red;font-size: 20px;}
+#apply #apply_sec5 form input{width: 90%;height: 32px;border:1px solid black;}
+#apply #apply_sec5 form ul li{height:25px;font-size: 14px;position: relative;}
+#apply #apply_sec5 form  button{width: 200px;height: 35px;background-color: greenyellow;border-radius: 30px;color: white;font-weight: 400;font-size: 25px;cursor: pointer;}
+#apply #apply_sec5 form .inputs_square{width: 20px;height: 20px;position: absolute;top:0;left:0px;}
+#apply #apply_sec5 form li p{position: absolute;top:2px;left: 25px;}
+#apply #apply_sec5 form .inputs_circle{width: 20px;height: 20px;position: absolute;top:0;left:0px;}
+#apply #apply_sec5 .radio_box{display:inline-block;width: 5px;height: 5px;}
+#apply #apply_sec5 .plan_box,.location_box{display:inline-block;width: 5px;height: 5px;}
+#apply #apply_sec5 .location_box{display:inline-block;width: 5px;height: 5px;}
+#apply .radio_lable{display:inline-block;}
