@@ -1,3 +1,0 @@
-function openpage(url){var pagelocation=url;$.get(pagelocation, function(data, status){document.getElementById("pagebody").innerHTML = data;});}
-function switchmenu(elemID,onclass,offclass){if (document.getElementById(elemID).className == offclass){document.getElementById(elemID).className = onclass;}else{document.getElementById(elemID).className = offclass;}}
-function checkit(){alert('hello world 你好');}
