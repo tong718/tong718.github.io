@@ -1,0 +1,4 @@
+/*bttom开始*/
+#buttom {width: 100%;height:150px;background-color:darkslateblue;padding-top:25px;box-sizing: border-box;margin-top: 20px;}
+#buttom img{width: 10%;height: auto;float: left;margin-left: 10%;}
+#buttom p{color: white;text-align: center;margin-top:2%;width: 70%;float: right;font-weight: 700;}

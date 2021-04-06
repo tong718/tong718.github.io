@@ -1,0 +1,12 @@
+#contact{width: 100%;height: 700px;margin-top: 160px;}
+*{font-size: 20px;font-weight: 500;}
+#left{background-image:url(../../imgs/home-contact.png);background-size:  100% 40%;background-repeat:no-repeat;background-position:bottom left;width: 50%;height: 100%;float: left;padding-top: 10%;padding-left: 10%;box-sizing: border-box;}
+#left p:first-child{font-size: 45px;font-weight: 700;margin-bottom: 2%;}
+#left p:nth-child(2){font-weight:600;font-size: 25px;margin-bottom: 2%;}
+#left p:nth-child(3){text-align: justify;}
+#right{width: 50%;height: 100%;padding-left:5%;padding-top: 10%;box-sizing: border-box;float: right;text-align: left;}
+#right input{width: 60%;height: 35px;border: 1px solid black;margin-top: 5%;margin-left: 10%;}
+#right input::placeholder{color: grey;font-size: 12px;text-align: center;}
+#right label{margin-top: 5%;margin-right:2%;height: 50px;display: inline-block;width: 13%;}
+#right  button{width: 50%;height: 50px;background-color: darkslateblue;color: white;border-radius: 10px;margin-left: 25%;margin-top: 5%;}
+#right  button:hover{background-color: orange;}

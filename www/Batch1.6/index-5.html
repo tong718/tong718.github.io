@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" content="width=device-width, user-scalable=no">
+	<title></title>
+	<link href="css/pgstyle.css" type="text/css" rel="stylesheet" media="screen and (min-width:1100px")/>
+	<link href="css/mbstyle.css" type="text/css" rel="stylesheet" media="screen and (max-width:1100px) "/>
+	<link href="css/pages.css" type="text/css" rel="stylesheet" />
+	<link href="css/mbpages.css" type="text/css" rel="stylesheet" media="screen and (max-width:1100px)" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="js.js" type="text/javascript"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body style="margin:0;padding:0;position: relative;" onclick="for_service(event)">
+	<!--增加锚点	-->
+	<p id="aa"></p>
+	<!--增加锚点	-->
+	<div id="jump" class="jump_off">
+		<a href="index.html#aa"><p>Return Home</p></a>
+	</div>
+	<!--头部三条线开始-->
+	<div id="headers" onclick="menu_off()">
+		<div id="header_one">The Next Intake Starts on 29th-October-2018 in NZ. Secure Your Seat Now!</div>
+		<div class="header_two">
+			<p>FREE INFORMATION SESSION:</p>
+			<p>Every Saturday at 10am at Unit C 363 East Tamaki Road, Auckland.</p>
+		</div>
+		<div class="header_two">
+			<p>FREE INFORMATION SESSION: </p>
+			<p>Every Sunday at 11am at 60 Cook Street, Auckland.</p>
+		</div>
+	</div>
+	<!--头部三条线结束-->
+	<!-- 导航开始 -->
+	<div id="header" class="header_on" >
+		<div id="logo" class="logo_on" onclick="menu_off()">
+			<img  id="img_call"  class="img_on" src="./imgs/logotop.jpg" onclick="go('/index.html')"/>
+		</div>
+		<div id="right_nav" >
+			<ul id="right_li" class="right_li_on" onclick="menu_off()">
+				<li><div id="border"></div>
+					<a onclick="window.location.reload()" value="Refresh Page" >Home</a>
+				</li>
+				<li>
+					<div id="border"></div>
+					<a onclick="open_page ('Pages/aboutus.html','pagebody')">About us </a>
+				</li>
+				<li>
+					<div id="border"></div>
+					<a onclick="open_page('Pages/program.html','pagebody')">Programmers</a>
+				</li>
+				<li id="sub" class="sub_off" onclick="services()">
+					<div id="border"></div>
+					Services
+					<div id="sub_services" class="sub_services_off">
+						<div id="sub_1" >
+							<div id="border1"></div>
+							aaa
+						</div>
+						<div id="sub_2" >
+							<div id="border2"></div>
+							bbb
+						</div>
+					</div>
+				</li>
+				<li>
+					<div id="border"></div>
+					<a onclick="open_page('Pages/test.html','pagebody')">Testimonias</a>
+				</li>
+				<li><div id="border"></div>FAQ</li>
+				<li>
+					<div id="border"></div>
+					<a onclick="open_page('Pages/contact.html','pagebody')">Contact us</a>
+				</li>
+				<li>
+					<div id="border"></div>
+					<a onclick="open_page('Pages/apply.html','pagebody')">Apply</a>
+				</li>
+			</ul>
+		</div>
+		<!--手机端导航开始-->
+		<div id="menu_section" class="menu_section_off" onmouseover="open_menu()" >
+			<div class="line"></div>
+			<div class="line"></div>
+			<div class="line"></div>
+		</div>
+		<div id="menu_content" class="menu_content_off">
+			<ul id="content">
+				<li><a onclick="window.location.reload()" value="Refresh Page" >Home</a><div class="border"></div></li>
+				<li><a onclick="open_page ('Pages/aboutus.html','pagebody')">About us </a><div class="border"></div></li>
+				<li><a onclick="open_page('Pages/program.html','pagebody')">Programmers</a><div class="border"></div></li>
+				<li><a href="index.html">Services</a><div class="border"></div></li>
+				<li><a href="index.html">aaa</a><div class="border"></div></li>
+				<li><a href="index.html">bbb</a><div class="border"></div></li>
+				<li><a onclick="open_page('Pages/test.html','pagebody')">Testimonias</a><div class="border"></div></li>
+				<li><a href="index.html">FAQ</a><div class="border"></div></li>
+				<li><a onclick="open_page('Pages/contact.html','pagebody')">Contact us</a><div class="border"></div></li>
+				<li><a onclick="open_page('Pages/apply.html','pagebody')">Apply</a><div class="border"></div></li>
+			</ul>
+		</div>
+		<!-- 导航结束 -->
+	</div>
+	<!--page中间content部分开始-->
+	<div id="pagebody">
+	<!--中间banner部分-->
+	<div id="banner_blank" onclick="menu_off()">
+		<div class="container-banner-video">
+			<video playsinline autoplay muted loop poster="" id="vidbg">
+				<source src="./imgs/1.mp4" type="video/webm">
+			</video>
+			<video playsinline autoplay muted loop poster="" id="vidbg">
+				<source src="./imgs/1.mp4" type="video/webm">
+			</video>
+			<video playsinline autoplay muted loop poster="" id="vidbg">
+				<source src="./imgs/1.mp4" type="video/webm">
+			</video>
+			<video playsinline autoplay muted loop poster="" id="vidbg">
+				<source src="./imgs/1.mp4" type="video/webm">
+			</video>
+		</div>
+	</div>
+	<!-- main开始 分七部分-->
+	<!--main第一部分开始-->
+	<div id="section1" onclick="menu_off()">
+		<div id="sec1_left">
+			<div class="front">
+				<img src="./imgs/empl-icon.png"/>
+				<p class="ft">EMPLOYERS</p>
+				<p class="lt">Are you an employer looking for a trained and experienced employee?</p>
+			</div>
+			<div class="back">
+				<p >GET AN PERSONALISED SERVICE,FREE OF COST</p>
+				<BUTTON type="button">Click Here</BUTTON>
+			</div>
+		</div>
+		<div id="sec1_right">
+			<div class="front">
+				<img src="./imgs/grad-icon.png">
+				<p class="ft">GRADUATES</p>
+				<p class="lt">Are you a fresh business or accounting graduates looking for an opportunity?</p>
+			</div>
+			<div class="back">
+				<p >GET ON HANDS-ON JOB READY OPPORTUNITY.</p>
+				<BUTTON type="button">Click Here</BUTTON>
+			</div>
+		</div>
+	</div>
+	<!--main第一部分结束-->
+	<!--main第二部分开始-->
+	<div id="section2" onclick="menu_off()">
+		<p>
+			Our BAS Accountant job ready program has helped many graduates successfully start an accounting job & career in New Zealand in both CA and commercial environment.
+		</p>
+	</div >
+	<!--main第二部分结束-->
+	<!--main第三部分开始-->
+	<div id="section3" onclick="menu_off()">
+		<div id="sec3_left">
+			<p>About Us</p>
+			<span>Accounting Career Connect creates a solution to bridge the gap between graduates and employers, through mentorship to enhance the right attitude, skills, and knowledge needed on actual performance of job. It blends the experiences of today's business leader with tomorrow's- creating THE FUTURE TO BE NOW.<br><br>We aim to place successful business, accounting, and finance GRADUATES to employers that matches their abilities.<br><br>We help our partner EMPLOYERS to grow their company in choosing the right candidate who can have leadership and efficiently undertake a role.</span>
+		</div>
+		<div id="sec3_right">
+			<div class="sec3_right_sub">
+				<p>25</p>
+				<p>Our <br>Graduates</p>
+			</div>
+			<div class="sec3_right_sub">
+				<p>15</p>
+				<p>Emplyers <br>With Us</p>
+
+			</div>
+			<div class="sec3_right_sub">
+				<p>25</p>
+				<p>Emplyers <br>With Us</p>
+			</div>
+		</div>
+	</div>
+	<!--main第三部分结束-->
+	<!--main第四部分开始-->
+	<div id="section4" onclick="menu_off()">
+		<div id="sec4_up">
+			<p>How it works</p>
+			<p>The Accounting Career Connect Way</p>
+			<p>Get Your career started in Accountancy.</p>
+		</div>
+		<div id="sec4_middle">
+			<div id="sec4_middle_left">
+				<p>Students trained for 3-6months</p>
+				<p>Continue to attend interviews until you are successful and sign contract with employer</p>
+			</div>
+			<div id="sec4_middle_right">
+				<img src="./imgs/short.PNG"/>
+				<p>Attend interview skills coaching sessions prior to interviews</p>
+				<p>Arranges Commission for Job Placement fee for ACCL paid monthly aligning with your salary</p>
+			</div>
+		</div>
+		<div id="sec4_down">
+			<button type="button"> Apply</button>
+			<button type="button"> Case Studies</button>
+		</div>
+	</div>
+	<!--main第四部分结束-->
+	<!--main第五部分开始-->
+	<div id="section5" onclick="menu_off()">
+	</div>
+	<!--main第五部分结束-->
+	<!--main第六部分开始-->
+	<div id="section6" onclick="menu_off()">
+		<div id="sec6_sub">
+			<p>Where Our Past Trainees Work Right Now</p>
+			<div id="sec6_sub_3">
+				<div class="sec6_sub_3">
+					<div class="sec6_sub_front">
+						<img src="./imgs/trainee.png"/>
+						<p>AYESHI PERVIN</p>
+						<p>Assistant to Chef Finance Officer</p>
+						<p>Envivo Engineering</p>
+					</div>
+					<div class="sec6_sub_back">
+						<img src="./imgs/photo.png"/>
+						<p>Envivo Engineering</p>
+						<p>Consulting Complay,Auckland</p>
+					</div>
+				</div>
+				<div class="sec6_sub_3">
+					<div class="sec6_sub_front">
+						<img src="./imgs/trainee.png"/>
+						<p>AYESHI PERVIN</p>
+						<p>Assistant to Chef Finance Officer</p>
+						<p>Envivo Engineering</p>
+					</div>
+					<div class="sec6_sub_back">
+						<img src="./imgs/photo.png"/>
+						<p>Envivo Engineering</p>
+						<p>Consulting Complay,Auckland</p>
+					</div>
+				</div>
+				<div class="sec6_sub_3">
+					<div class="sec6_sub_front">
+						<img src="./imgs/trainee.png"/>
+						<p>AYESHI PERVIN</p>
+						<p>Assistant to Chef Finance Officer</p>
+						<p>Envivo Engineering</p>
+					</div>
+					<div class="sec6_sub_back">
+						<img src="./imgs/photo.png"/>
+						<p>Envivo Engineering</p>
+						<p>Consulting Complay,Auckland</p>
+					</div>
+				</div>
+				<div class="sec6_sub_3">
+					<div class="sec6_sub_front">
+						<img src="./imgs/trainee.png"/>
+						<p>AYESHI PERVIN</p>
+						<p>Assistant to Chef Finance Officer</p>
+						<p>Envivo Engineering</p>
+					</div>
+					<div class="sec6_sub_back">
+						<img src="./imgs/photo.png"/>
+						<p>Envivo Engineering</p>
+						<p>Consulting Complay,Auckland</p>
+					</div>
+				</div>
+				<div class="sec6_sub_3">
+					<div class="sec6_sub_front">
+						<img src="./imgs/trainee.png"/>
+						<p>AYESHI PERVIN</p>
+						<p>Assistant to Chef Finance Officer</p>
+						<p>Envivo Engineering</p>
+					</div>
+					<div class="sec6_sub_back">
+						<img src="./imgs/photo.png"/>
+						<p>Envivo Engineering</p>
+						<p>Consulting Complay,Auckland</p>
+					</div>
+				</div>
+				<div class="sec6_sub_3">
+					<div class="sec6_sub_front">
+						<img src="./imgs/trainee.png"/>
+						<p>AYESHI PERVIN</p>
+						<p>Assistant to Chef Finance Officer</p>
+						<p>Envivo Engineering</p>
+					</div>
+					<div class="sec6_sub_back">
+						<img src="./imgs/photo.png"/>
+						<p>Envivo Engineering</p>
+						<p>Consulting Complay,Auckland</p>
+					</div>
+				</div>
+				<div class="sec6_sub_3">
+					<div class="sec6_sub_front">
+						<img src="./imgs/trainee.png"/>
+						<p>AYESHI PERVIN</p>
+						<p>Assistant to Chef Finance Officer</p>
+						<p>Envivo Engineering</p>
+					</div>
+					<div class="sec6_sub_back">
+						<img src="./imgs/photo.png"/>
+						<p>Envivo Engineering</p>
+						<p>Consulting Complay,Auckland</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="sec6_sub_sub1">
+			<p>Our Trainees Employers & Employer Partners</p>
+			<div>
+				<table>
+					<tr>
+						<td><img src="./imgs/process.png"/></td>
+						<td><img src="./imgs/process.png"/></td>
+						<td><img src="./imgs/process.png"/></td>
+						<td><img src="./imgs/process.png"/></td>
+						<td><img src="./imgs/process.png"/></td>
+						<td><img src="./imgs/process.png"/></td>
+						<td><img src="./imgs/process.png"/></td>
+						<td><img src="./imgs/process.png"/></td>
+						<td><img src="./imgs/process.png"/></td>
+						<td><img src="./imgs/process.png"/></td>
+						<td><img src="./imgs/process.png"/></td>
+						<td><img src="./imgs/process.png"/></td>
+					</tr>
+					<tr>
+						<td><img src="./imgs/process.png"/></td>
+						<td><img src="./imgs/process.png"/></td>
+						<td><img src="./imgs/process.png"/></td>
+						<td><img src="./imgs/process.png"/></td>
+						<td><img src="./imgs/process.png"/></td>
+						<td><img src="./imgs/process.png"/></td>
+						<td><img src="./imgs/process.png"/></td>
+						<td><img src="./imgs/process.png"/></td>
+						<td><img src="./imgs/process.png"/></td>
+						<td><img src="./imgs/process.png"/></td>
+						<td><img src="./imgs/process.png"/></td>
+						<td><img src="./imgs/process.png"/></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		<div id="sec6_sub_sub2">
+			<p>Our Trainees' Success Stories</p>
+			<div>
+				<table>
+					<tr>
+						<td>
+							<img src="./imgs/1.jpg"/>
+							<p>Some text for image</p>
+						</td>
+						<td>
+							<img src="./imgs/1.jpg"/>
+							<p>Some text for image</p>
+						</td>
+						<td>
+							<img src="./imgs/1.jpg"/>
+							<p>Some text for image</p>
+						</td>
+						<td>
+							<img src="./imgs/1.jpg"/>
+							<p>Some text for image</p>
+						</td>
+						<td>
+							<img src="./imgs/1.jpg"/>
+							<p>Some text for image</p>
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		<button type="button">More Successful Story</button>
+	</div>
+	<!--main第六部分结束-->
+	<!-- main结束 -->
+	<!--page中间content部分结束-->
+</div>
+<!--底部开始-->
+	<div id="buttom" onclick="menu_off()">
+		<p id="copyright">Copyright Accounting Career Connect Australia, New Zealand | All Rights Reserved</p>
+	</div>
+	<script >
+		window.onscroll=function(){topmeau()};
+		jQuery(document).ready(function() { toggle()});
+		window.onload=function () {
+			var cr;var radio_box;
+			// 对页面application form单选项恢复style的判断
+			setInterval(function(){
+				cr = document.getElementsByClassName('cr');
+				radio_box=document.getElementsByClassName('radio_box');
+				var location_box=document.getElementsByClassName('location_box');
+				for(var i=0;i<cr.length;i++){
+					if(cr[i].value!==''){
+						cr[i].style='none;';
+					}
+				}
+				for(var i=0;i<radio_box.length;i++){
+					if(radio_box[i].checked){
+						for(var j=0;j<radio_box.length;j++){
+							radio_box[j].style='none;';
+						}
+					}}
+				for(var i=0;i<location_box.length;i++){
+					if(location_box[i].checked){
+						for(var j=0;j<location_box.length;j++){
+							location_box[j].style='none;';
+						}
+					}}
+			},1)
+		}
+	</script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<link href="CP/assets/css/bootstrap.css" rel="stylesheet">
+<link href="CP/assets/css/theme.css" rel="stylesheet">
+<link href="CP/assets/css/font-awesome.min.css" rel="stylesheet">
+
+<!-- Main window -->
+<div class="main_container" id="calendar_page">
+    <div class="row-fluid">
+        <ul class="breadcrumb">
+            <li><a href="#">Home</a> <span class="divider">/</span></li>
+            <li><a href="#">Pages</a> <span class="divider">/</span></li>
+            <li class="active">Watchlist</li>
+        </ul>
+        <h2 class="heading">
+            Watchlist
+            <div class="btn-group pull-right">
+                <a href="http://arshaw.com/fullcalendar/" target="_blank" class="btn"><i class="icon-external-link"></i> Documentation</a>
+            </div>
+        </h2>
+    </div>
+    <div class="row-fluid">
+        <div class="widget span12" style="position: relative;">
+            <div class="widget-header">
+            </div>
+            <div class="widget-body">
+                <div id='calendar'>
+                    <button id="feedback_btn" >update feedback information</button>
+                    <table id="feedback">
+                        <tr>
+                            <td>username</td>
+                            <td>phone</td>
+                            <td>email</td>
+                            <td>message</td>
+                        </tr>
+                        <tr>
+                            <td class="feedback_username">1</td><td>1</td><td>1</td><td>1</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<script>
+        $("#feedback_btn").click(function () {
+            $.get("./watchlist.php",function (data) {
+                $(".feedback_username").text(data);  // 这里是将回调的数据设置给p标签
+            })
+        })
+
+</script>
+<!-- /Main window -->

@@ -1,0 +1,16 @@
+<div id="contact">
+    <div id="left">
+        <p>CONTACT US</p>
+        <p>Call us NOW to find out more on 09-818-6606</p>
+        <p>If you can’t call now, complete as much information below as you can and we’ll be in touch with you to talk through your requirements. Your enquiry will be answered within 2 business days by a representative of Snug Insulation Limited.</p>
+    </div>
+    <form id="right" name="contact_form"  action="../source/goto/watchlist/watchlist.php" method="post" >
+        <label>Name</label><input type="text" id="username" name="username" placeholder="Enter your name"  onfocus="null_judge(this.id)" oninput="name_judge(this.id)"     /><br>
+        <label>Phone</label><input type="text" id="contact_phone" name="phone"placeholder="Enter your phone number" onfocus="null_judge(this.id)" onblur="phone_judge(this.id)"/><br>
+        <label>Email</label><input type="text" id="address" name="address"placeholder="Enter your email address" onfocus="null_judge(this.id)" onblur="address_judge(this.id)"/><br>
+        <label>Message</label><input type="text" id="msg" name="msg" placeholder="Enter your message"/><br>
+        <button type="button"  onclick="btn_send()">Send</button>
+    </form>
+
+</div>
+

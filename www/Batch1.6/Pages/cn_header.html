@@ -1,0 +1,79 @@
+
+<!-- 导航开始 -->
+<div id="header" class="header_on" >
+    <div id="logo" class="logo_on" onclick="menu_off()">
+        <img  id="img_call"  class="img_on" src="./imgs/SNUGNZlogo.png" onclick="go('/index.html')"/>
+    </div>
+    <div id="nav" class="nav_on" >
+        <div id="right_nav" class="right_nav_on">
+            <ul id="nav_list">
+                <li onclick="home()">主页</li>
+                <li >服务</li>
+                <li >产品</li>
+                <li >关于</li>
+                <li onclick="open_page('Pages/contact.html','pagebody')">支持</li>
+                <li onclick="open_page('Pages/contact.html','pagebody')">联系</li>
+            </ul>
+        </div>
+        <div id="info_nav" class="info_nav_on" >
+            <button type="button" onclick="open_page('Pages/cn_header.html','body1')">English</button>
+            <button type="button">登录</button>
+            <div id="phone" onclick="phone_go()">
+                <img src="./imgs/grphone.PNG"/>
+                <p id="info_phone" class="info_phone_on">09-818-6606</p>
+            </div>
+        </div>
+        <!--subtitile开始-->
+        <div id="subtitle_service" class="subtitle_off">
+            <div onclick="open_page('Pages/Insultation.html','pagebody')">保险</div>
+            <div onclick="open_page('Pages/Insultation.html','pagebody')">HEALTHY HOME</div>
+        </div>
+        <div id="subtitle_product" class="subtitle_off">
+            <div onclick="open_page('Pages/Product.html','pagebody')">Insulation Product</div>
+            <div>Heat Pumps</div>
+            <div>Ventilation</div>
+            <div>LED Lights</div>
+            <div>PPE</div>
+        </div>
+        <!--subtitile结束-->
+    </div>
+    <!--手机端导航开始-->
+    <div id="menu_section" class="menu_section_off" onmouseover="open_menu()" >
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+    </div>
+    <div id="menu_content" class="menu_content_off">
+        <ul id="content">
+            <li onclick="home()">主页</li>
+            <li onclick="subtitle_service()">服务</li>
+            <li id='service_item1' class="item_off" onclick="open_page('Pages/Insultation.html','pagebody')">保险</li>
+            <li id='service_item2' class="item_off" onclick="open_page('Pages/Insultation.html','pagebody')">健康之家</li>
+            <li onclick="subtitle_product()">产品</li>
+            <li id='service_item3' class="item_off" onclick="open_page('Pages/Product.html','pagebody')">Insulation Product</li>
+            <li >关于</li>
+            <li onclick="open_page('Pages/contact.html','pagebody')">Support</li>
+            <li onclick="open_page('Pages/contact.html','pagebody')">Contact</li>
+        </ul>
+    </div>
+    <!-- 导航结束 -->
+</div>
+<div id="header_front" class="header_on"></div>
+<!--page中间content部分开始-->
+<div id="pagebody"  >
+    <!--sec1开始-->
+    <div id="sec1">
+        <p>中文</p>
+        <p>Ten years experience in providing kiwi's with warm, dry and healthy places to live and work.</p>
+        <button type="button" onclick="open_page('Pages/contact.html','pagebody')">咨询</button>
+    </div>
+    <!--sec1结束-->
+</div>
+<!--main第六部分结束-->
+<!--main结束 -->
+<!--page中间content部分结束-->
+<!--底部开始-->
+<div id="buttom">
+    <img src="./imgs/SNUGNZlogo.png"/>
+    <p id="copyright">Terms & Conditions | Copyright © SnugNZ group Ltd 2020 All rights reserved.</p>
+</div>
